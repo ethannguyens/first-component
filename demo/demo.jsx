@@ -15,16 +15,36 @@ addLocaleData(localeData);
 const localScope = {IntlProvider, messages, locale};
 
 const components = [
-  {
-    title: "FirstComponent",
-    examples: [
-      {
-        type: "playground",
-        code: require("raw!./examples/first-component.example"),
-        noRender: true
-      }
-    ]
-  }
+	{
+		title: "HouseParty",
+		examples: [
+			{
+				type: "playground",
+				code: require("raw!./examples/guest-list.example"),
+				noRender: true
+			}
+		]
+	},
+	{
+		title: "RenderFriend",
+		examples: [
+			{
+				type: "playground",
+				code: require("raw!./examples/render-friend.example"),
+				noRender: true
+			}
+		]
+	},
+	{
+		title: "FirstComponent",
+		examples: [
+			{
+				type: "playground",
+				code: require("raw!./examples/first-component.example"),
+				noRender: true
+			}
+		]
+	}
 ];
 
 const demo = () => (
